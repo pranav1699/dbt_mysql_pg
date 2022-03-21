@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: airbyte_test
+    description: "testing airbytes using dbt"
+    database: airflow
+    schema: country
+    tables:
+      - name: airbytesuser
+        description: "details about user"
+
